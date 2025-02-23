@@ -6,7 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<IAnimal, Cat>();
 //builder.Services.AddTransient<IAnimal, Dog>();
-builder.Services.AddTransient<IAnimalSender, HtmlAnimalSender>();
+//builder.Services.AddTransient<IAnimalSender, HtmlAnimalSender>();
+builder.Services.AddTransient<IAnimalSender, FileAnimalSender>();
+
 
 var app = builder.Build();
 

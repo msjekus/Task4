@@ -10,8 +10,8 @@ namespace lab4.Models
 
         public Cat()
         {
-            Name = "Кіт";
-            Sound = "Мяу";
+            Name = "Cat";
+            Sound = "Mouy";
             
         }
     }

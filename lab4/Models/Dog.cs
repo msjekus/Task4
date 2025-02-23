@@ -9,8 +9,8 @@ namespace lab4.Models
 
         public Dog()
         {
-            Name = "Пес";
-            Sound = "Гав";
+            Name = "Dog";
+            Sound = "Gav";
         }
     }
 }
